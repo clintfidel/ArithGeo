@@ -1,0 +1,17 @@
+{
+  "name": "arithgeo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register spec/aritGeo.js"
+  },
+  "author": "clintfidel",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
+  }
+}
