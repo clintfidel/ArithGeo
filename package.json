@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --compilers js:babel-core/register spec/aritGeo.js"
+    "test": "mocha --compilers js:babel-core/register spec/aritGeo-spec.js"
   },
   "author": "clintfidel",
   "license": "ISC",

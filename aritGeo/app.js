@@ -1,5 +1,4 @@
-const AritGeo =
-    aritGeo = (arr) => {
+const aritGeo = (arr) => {
     if(Array.isArray(arr)) {
       let arith = true;
       let geo = true;
@@ -7,8 +6,8 @@ const AritGeo =
       let checkGeo = arr[1]/arr[0];
       if(arr.length > 0) {
         for (let i = 0; i<arr.length-1; i++) {
-          if (arr[i+1] - arr[1] !== checkArit){
-             arit = false;
+          if (arr[i+1] - arr[i] !== checkArit){
+             arith = false;
           }
           
           if (arr[i+1]/checkGeo !== arr[i]) {
@@ -31,7 +30,7 @@ const AritGeo =
       
     }
     else {
-      return "I can't be empty; Pls pass a valid array";
+      return " Pls pass a valid array";
     }
   }
-module.exports = AritGeo;
+module.exports = aritGeo;
