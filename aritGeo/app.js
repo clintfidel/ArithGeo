@@ -4,7 +4,7 @@ const aritGeo = (arr) => {
       let geo = true;
       let checkArit = arr[1]-arr[0];
       let checkGeo = arr[1] / arr[0];
-      
+
       //checking the length of the array
       if(arr.length > 0) {
         for (let i = 0; i<arr.length-1; i++) {
@@ -34,5 +34,6 @@ const aritGeo = (arr) => {
     else {
       return " Pls pass a valid array";
     }
-  }
-export default aritGeo;
+}
+  
+export default aritGeo;// export function aritGeo for testing 
