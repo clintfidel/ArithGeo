@@ -33,4 +33,4 @@ const aritGeo = (arr) => {
       return " Pls pass a valid array";
     }
   }
-module.exports = aritGeo;
+export default aritGeo;
