@@ -3,7 +3,9 @@ const aritGeo = (arr) => {
       let arith = true;
       let geo = true;
       let checkArit = arr[1]-arr[0];
-      let checkGeo = arr[1]/arr[0];
+      let checkGeo = arr[1] / arr[0];
+      
+      //checking the length of the array
       if(arr.length > 0) {
         for (let i = 0; i<arr.length-1; i++) {
           if (arr[i+1] - arr[i] !== checkArit){
